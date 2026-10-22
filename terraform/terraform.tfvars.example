@@ -1,0 +1,13 @@
+region       = "us-east-1"
+project_name = "siemens-poc-app"
+environment  = "dev"
+
+image_tag      = "latest"
+container_port = 8080
+
+task_cpu      = 512
+task_memory   = 1024
+desired_count = 1
+
+# Restrict this to your corporate egress ranges for anything beyond a POC.
+allowed_ingress_cidrs = ["0.0.0.0/0"]

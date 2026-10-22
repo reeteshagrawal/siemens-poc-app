@@ -1,0 +1,10 @@
+### OpenTofu / Terraform ###
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!*.tfvars.example
+.terraformrc
+terraform.rc
