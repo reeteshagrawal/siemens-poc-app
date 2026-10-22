@@ -1,5 +1,5 @@
-# Step 1: Use a lightweight Java 17 runtime environment
-FROM eclipse-temurin:17-jdk-alpine
+# Step 1: Use a lightweight Java 21 runtime environment
+FROM eclipse-temurin:21-jdk-alpine
 
 # Step 2: Set the folder inside the container where commands will run
 WORKDIR /app
